@@ -30,7 +30,7 @@ def process_directory(path)
       # check integrity of music file
       #
       new_filename = "#{tag.artist} - #{tag.album} - #{tag.track.to_s.rjust(2, '0')} - #{tag.title}#{file_extension}"
-      new_directory = "#{music_directory}#{tag.artist}"
+      new_directory = "#{music_directory}#{tag.artist}/#{tag.album}"
 
     end
     # move to music with formatted name
