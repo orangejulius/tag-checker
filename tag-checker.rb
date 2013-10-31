@@ -49,5 +49,3 @@ path = ARGV[0]
 puts "procesing music in #{path}"
 
 process_directory(path)
-
-
